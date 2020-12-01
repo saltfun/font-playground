@@ -1,3 +1,5 @@
+// Grunt的入口文件
+// 需要导出一个函数，此函数接收一个 grunt 的形参
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
